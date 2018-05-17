@@ -1,4 +1,4 @@
-# pracenje-meteo-stanice-mobapp
+# pracenje-meteo-stanice-iotapp+mobapp
 Mobilna aplikacija za praćenje mjerenja udaljene meteorološke stanice.
 
 ### Autori (2017./2018.)
