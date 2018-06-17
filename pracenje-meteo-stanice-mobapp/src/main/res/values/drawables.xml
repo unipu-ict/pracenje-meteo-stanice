@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item name="home1" type="drawable">@drawable/home</item>
+    <item name="temperature2" type="drawable">@drawable/temperature</item>
+    <item name="pressure3" type="drawable">@drawable/pressure</item>-->
+
+</resources>
+

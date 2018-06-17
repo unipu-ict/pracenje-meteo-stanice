@@ -1,0 +1,1 @@
+include ':pracenje-meteo-stanice-iotapp', ':pracenje-meteo-stanice-mobapp'

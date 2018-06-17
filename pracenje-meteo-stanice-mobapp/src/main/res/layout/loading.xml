@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="projektv2.iot.example.com.mobapp.Loading">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="503dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="86dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="311dp"
+            android:layout_height="66dp"
+            android:layout_above="@+id/logo_id"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="Praćenje udaljene meteo stanice"
+            android:textAlignment="center"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/logo_id"
+            android:layout_width="195dp"
+            android:layout_height="276dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/icon1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:fontFamily="sans-serif"
+            android:paddingTop="140dp"
+            android:text="Copyright Ⓒ 2018. Fakultet informatike u Puli "
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

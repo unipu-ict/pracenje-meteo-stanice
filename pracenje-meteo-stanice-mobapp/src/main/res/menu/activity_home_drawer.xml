@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        />
+    <item
+        android:id="@+id/nav_temp"
+        android:icon="@drawable/temperature"
+        android:title="@string/temperatura" />
+    <item
+        android:id="@+id/nav_tlak"
+        android:icon="@drawable/pressure"
+        android:title="Tlak" />
+
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/people"
+        android:title="Informacije"/>
+
+</menu>

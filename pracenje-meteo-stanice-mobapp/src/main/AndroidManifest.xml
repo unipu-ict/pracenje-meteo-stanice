@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="projektv2.iot.example.com.mobapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="projektv2.iot.example.com.mobapp.Loading"
+            android:theme="@style/Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="projektv2.iot.example.com.mobapp.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="projektv2.iot.example.com.mobapp.Temperatura"
+            android:label="@string/title_activity_temperatura"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="projektv2.iot.example.com.mobapp.Tlak"
+            android:label="@string/title_activity_tlak"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name="projektv2.iot.example.com.mobapp.AboutUs"
+            android:label="O nama"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

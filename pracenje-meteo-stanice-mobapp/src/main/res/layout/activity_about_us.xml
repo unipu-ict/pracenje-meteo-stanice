@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+    <include
+        layout="@layout/app_bar_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="314dp"
+            android:layout_height="102dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_marginTop="88dp"
+            android:fontFamily="sans-serif"
+            android:text="Mobilna aplikacija za praćenje mjerenja udaljene meterološke stanice. Uz sklopu projekta koristimo RPi3B + BMP280, Samsung Artik Cloud. "
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_marginTop="200dp"
+            android:text="Organizacija:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="162dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="306dp"
+            android:layout_height="121dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="211dp"
+            android:layout_marginStart="26dp"
+            android:text="Sveučilište Jurja Dobrile u Puli                          Fakultet informatike u Puli                         Mobilne aplikacije, Ak.g.. 2017/2018. Voditelj: Siniša Sovilj (ssovilj@unipu.hr)"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="201dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="97dp"
+            android:layout_height="42dp"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="-211dp"
+            android:text="Autori:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="297dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="311dp"
+            android:layout_height="109dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_marginBottom="46dp"
+            android:text="Mikaela Radin-Mačukat (mradin@unipu.hr)              Nikolina Obadić (nobadic@unipu.hr)             David Juran(djuran@unipu.hr)"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_home"
+        app:menu="@menu/activity_home_drawer" />
+
+
+</android.support.v4.widget.DrawerLayout>
