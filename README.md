@@ -1,5 +1,5 @@
 # udaljeno-pracenje-meteo-stanice (iotapp+mobapp)
-Mobilna aplikacija za praćenje mjerenja udaljene meteorološke stanice.
+Sustav za praćenje mjerenja udaljene meteorološke stanice.
 
 ### Autori (2017./2018.)
 - **Radin-Mačukat Mikaela** (mradin@unipu.hr)
